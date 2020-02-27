@@ -1,6 +1,5 @@
 # demo
-
-Diseño de formulario para una app en flutter.
+Diseño de formulario login para una app en flutter.
 
 ## Getting Started
 
