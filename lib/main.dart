@@ -22,7 +22,15 @@ class MyApp extends StatelessWidget {
         dividerColor: Colors.red,
         primarySwatch: Colors.blue,
         buttonTheme: ButtonThemeData(height: 40),
- 
+        textTheme: TextTheme(
+          subhead: TextStyle(
+            fontSize: 18
+          ),
+          button: TextStyle(
+            fontSize: 16,
+            color: Colors.white
+          )
+        )
       ),
       home: loginPage(),
     );
